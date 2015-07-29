@@ -25,7 +25,7 @@ def main():
         t.generate()
         t.draw(screen, pixel_size)
         pygame.display.update()
-        pygame.image.save(screen, "TestTrunk/200px/"+str(i)+".bmp")
+        pygame.image.save(screen, "buffer"+str(i)+".bmp")
         i += 1
 
 

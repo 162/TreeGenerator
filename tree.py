@@ -65,4 +65,4 @@ class CircularTree():
 
 
 def get_old_creepy_oak():
-    return Tree
+    return CircularTree(200, 100, 20, 3, 0.38, 0.6)
