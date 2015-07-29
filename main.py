@@ -11,8 +11,6 @@ def main():
     pygame.display.set_caption("planets")
     background = Surface(DISPLAY)
     background.fill(Color("#111111"))
-    t = CircularTree(200, 100, 20, 3, 0.38, 0.6)
-    t.generate()
     pixel_size = 2
     i = 0
     while i < 100:
